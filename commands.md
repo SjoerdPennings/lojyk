@@ -19,3 +19,4 @@ XNOR
 |[var] NAND [arg1] [arg2?]           | var = arg1 NAND arg2         | var = var NAND arg1                       |
 |[var] XNOR [arg1] [arg2?]           | var = arg1 XNOR arg2         | var = var XNOR arg1                       |
 |OUT [1] [2] [3] [4] [5] [6] [7] [8] | Output 1-8 as one UTF-8 byte | If less than 8 bytes, output what's there |
+|IN [1] [2] [3] [4] [5] [6] [7] [8]  | See above, but its input     | If less than 8 bytes, input the first n   |
